@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="index.html"> Home </a> </li>
+        <li><a href="forms.html"> Forms </a> </li>
+        <li><a href="comic.html"> Comic </a> </li>
+    </ul>
+    <h1><b>Forms</b></h1>
+    <form>
+        <label for="fname">First name:</label>
+        <br>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="lname">Surname:</label>
+        <br>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <label for="daddr">Delivery address:</label>
+        <br>
+        <input type="text" id="daddr" name="daddr">
+        <br>
+        <br>
+
+        <label>
+            <input type="radio" name="shoepic" value="shoe1">
+            <img name="shoe" src="https://cdn.chamaripashoes.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/k/4/k4020_6.jpg">
+        </label>
+        <label>
+            <input type="radio" name="shoepic" value="shoe2">
+            <img name="shoe" src="https://s3.amazonaws.com/nikeinc/assets/84925/Sp19_BB_Nike_Adapt_20181218_NIKE0538_Detail5_rectangle_1600.jpg?1547068102">
+        </label>
+        <label>
+            <input type="radio" name="shoepic" value="shoe3">
+            <img name="shoe" src="https://rupras.com/wp-content/uploads/2019/08/IMG-20190803-WA0097.jpg">
+        </label>
+
+        <br>
+        <br>
+        <input type="radio" id="leather" name="type" value="leather">
+        <label for="leather">leather</label>
+        <br>
+        <input type="radio" id="artleather" name="type" value="artificial leather">
+        <label for="artleather">artificial leather</label>
+        <br>
+        <input type="radio" id="cloth" name="type" value="cloth">
+        <label for="cloth">cloth</label>
+
+        <br>
+        <br>
+        <label for="color">Choose a color:</label>
+        <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="black">Black</option>
+            <option value="grey">Grey</option>
+        </select>
+        <br>
+        <br>
+
+        <input type="checkbox" id="opt1" name="opt1" value="gift">
+        <label for="opt1"> Pack as a gift</label>
+        <br>
+        <input type="checkbox" id="opt2" name="opt2" value="24h">
+        <label for="opt2"> Delivery in 24h</label>
+        <br>
+        <input type="checkbox" id="opt3" name="opt3" value="warranty">
+        <label for="opt3"> 1 year warranty</label>
+
+        <br>
+        <br>
+        <input class="button button2" type="reset" value="Clear">
+        <input class="button button2" type="submit" value="Send Order">
+
+    </form>
+
+</body>
+
+</html>
