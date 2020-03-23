@@ -1,103 +1,44 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="utf-8">
-</head>
-
-<body onload="init()">
-    <button type="button" onclick="greet()">Click here</button>
-    <script src="script.js"></script>
-    <ul class="navbar">
-        <li><a href="index.html"> Home </a> </li>
-        <li><a href="forms.html"> Forms </a> </li>
-        <li><a href="comic.html"> Comic </a> </li>
-        <li><a href="exercises.html"> Exercises </a> </li>
-    </ul>
-    <h1><b>Here is our heading</b></h1>
-    <p>Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 </p>
-    <p>Paragraph 2 Paragraph 2 Paragraph 2 </p>
-    <p>Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3</p>
-    <img id="first" src="">
-    <div id="container">
-        <img src="flower1.png">
-        <img src="flower1.png">
-        <img src="flower1.png">
-        <img src="flower1.png">
-        <img src="flower1.png">
-    </div>
-    <div id="second"></div>
-	<div>
-		<span id="new_element">
-			Here should appear our flower:
-		</span>
-	</div>
-	<div>
-	<span id="rainbow" style="font-size: 25px;">
-		<span>Don't</span>
-		<span>worry be</span>
-		<span>H</span>
-		<span>A</span>
-		<span>P</span>
-		<span>P</span>
-		<span>Y</span>
-	</span>
-	    <div id="event">
-    	<div>
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-    	</div>
-    	<div>
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-    	</div>
-    	<div>
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-    	</div>
-    	<div>
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-    	</div>
-    	<div>
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-	    	<img src="flower1.png">
-    	</div>
-    </div>
-</div>
-<br>
-<input type="checkbox" id="impo" name="impo" value="Important">
-<label for="impo">Is important</label><br>
-<input type="checkbox" id="groc" name="groc" value="Groceries">
-<label for="groc">Can be bought in groceries</label><br>
-<div id="inter1">
-	<label>Item to buy</label>
-	<input type="text" id="shopItem" name="shopItem" >
-	<button onclick="addItem()">Add</button>
-	<input type="number" id="itemRemove" name="itemRemove" >
-	<button onclick="remove()">Remove</button>
-	<br>
-	Shopping list : 
-</div>
-<ul id="inter1ul">
-</ul>
-</body>
-
+   <head>
+      <link rel="stylesheet" href="styles.css">
+      <meta charset="utf-8">
+   </head>
+   <body onload="init()">
+      
+      <script src="script.js"></script>
+      <ul class="navbar">
+         <li><a class="tooltip"href="index.html"> Home  <span class="tooltiptext">So we're going where we are?</span> </a> </li>
+         <li><a class="tooltip"href="tasks.html"> Tasks <span class="tooltiptext">That's where I'm supposed to work.</span>  </a> </li>
+         <li><a class="tooltip"href="shopping.html"> Shopping <span class="tooltiptext">A use<strike>(less)</strike>ful shopping list</span>  </a> </li>
+		 <li><a class="tooltip" href="https://www.youtube.com/watch?v=m7-4Q36XkOU&feature=emb_title"> Surprise website  <span class="tooltiptext">Without a joke, I'm really hyped by that</span> </a> </li>
+      </ul>
+      <h1><b>	Main Page</b></h1>
+      <h3><b>	First Task</b></h3>
+	  <button type="button" onclick="greet()">Click here</button>
+	  <img id="first" src="">
+      <p class="part1">This my first paragraph </p>
+      <p class="part1">The second one</p>
+      <p class="part2">The third one</p>
+      <p class="part2">Wait it changed... </p>
+      <p class="part2">How's that possible?</p>
+      <span id="rainbow" style="font-size: 25px;">
+      <span>What</span>
+      <span>a</span>
+      <span>beautiful</span>
+      <span>way</span>
+      <span>to</span>
+      <span>live</span>
+      <span>this life.</span>
+      </span>
+      </div>
+      <br>
+      <h5> How I lived happy?</h5>
+      <ul>
+         <li>Family</li>
+         <li>Video games</li>
+         <li>Books</li>
+      </ul>
+   </body>
 </html>
+

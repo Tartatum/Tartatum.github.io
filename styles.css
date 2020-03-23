@@ -1,6 +1,6 @@
 body{
 	margin-left: 200px;
-	background-color: #92b9bd;
+	background-color: #ffe6d0;
 }
 
 ul.navbar {
@@ -44,6 +44,12 @@ ul.navbar li {
   font-size:12px;
 	
 }
+.part1 {
+color : blue
+}
+.part2 {
+color : red
+}
 .button {
   background-color: ; /* Green */
   background-color: white;
@@ -67,3 +73,28 @@ a:link{
 a:visited {
   color: green;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #d0bcd5;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+<body style="text-align:center;">

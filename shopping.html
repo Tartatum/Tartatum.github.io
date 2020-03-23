@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="styles.css">
+      <meta charset="utf-8">
+   </head>
+   <body onload="init()">
+      <script src="script.js"></script>
+      <ul class="navbar">
+         <li><a class="tooltip"href="index.html"> Home  <span class="tooltiptext">Time to go Home.</span> </a> </li>
+         <li><a class="tooltip"href="tasks.html"> Tasks <span class="tooltiptext">That's where I'm supposed to work.</span>  </a> </li>
+         <li><a class="tooltip"href="shopping.html"> Shopping <span class="tooltiptext">Wait...I'm already here.</span>  </a> </li>
+		 <li><a class="tooltip" href="https://www.youtube.com/watch?v=m7-4Q36XkOU&feature=emb_title"> Surprise website  <span class="tooltiptext">Without a joke, I'm really hyped by that</span> </a> </li>
+      </ul>
+      <h1><b>	Shopping Page</b></h1>
+      <h3><b>	Final Task</b></h3>
+      <input type="checkbox" id="impo" name="impo" value="Important">
+      <label for="impo">Is important</label><br>
+      <input type="checkbox" id="groc" name="groc" value="Groceries">
+      <label for="groc">Can be bought in groceries</label><br>
+      <div id="inter1">
+         <label>Item to buy</label>
+         <input type="text" id="shopItem" name="shopItem" >
+         <button onclick="addItem()">Add</button>
+         <input type="number" id="itemRemove" name="itemRemove" >
+         <button onclick="remove()">Remove</button>
+         <br>
+         Shopping list : 
+      </div>
+      <ul id="inter1ul"></ul>
+   </body>
+</html>
+
